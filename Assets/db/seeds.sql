@@ -15,8 +15,8 @@ values
 ('youlo', 'hill',1 NULL),
 ('martha', 'jorees',2),
 ('john', 'chan', 2, 2),
-('marcus', 'joseph', 3 null),
+('marcus', 'joseph', 3, null),
 ('linda', 'flinch', 3, 2),
-('will', 'stone', 4),
-('dave', 'chilla', 4,2);null
+('will', 'stone', 4, null),
+('dave', 'chilla', 4,2);
 
