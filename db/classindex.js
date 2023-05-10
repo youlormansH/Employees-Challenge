@@ -8,7 +8,7 @@ class DB {
     }
     findAllEmployess(){
         return this.connection.promise().query(
-
+`SELECT employee.id, employee.first_name, employee.last_name, role.title, department.name AS department, role.salary `
         );
     }
 }
