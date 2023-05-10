@@ -21,11 +21,11 @@ VALUES
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id )
 VALUES
-('youlo', 'hill', 1, NULL NOT NULL AUTO_INCREMENT),
+('youlo', 'hill', 1, NULL),
 ('martha', 'jorees', 2, NULL),
 ('john', 'chan', 2, 2),
-('marcus', 'joseph', 3, null),
+('marcus', 'joseph', 3, NULL),
 ('linda', 'flinch', 3, 2),
-('will', 'stone', 4, null),
-('dave', 'chilla', 4, 2);
+('will', 'stone', 4, NULL),
+('dave', 'chilla', 4, 1);
 
